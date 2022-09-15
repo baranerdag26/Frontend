@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <style>
+      
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #showcase { 
+            background: url('home-bg.jpeg');
+            background-position: center;
+            height: 400px;
+            width: 100%;
+            padding: 10px;
+        }
+
+        #how-it-works {
+            text-align: center;
+        }
+       
+        
+
+        .main-header {
+            background-color: #FC997C;
+            padding: 8px 16px;
+        }
+
+        .main-nav {
+            display: inline-block;
+            width: calc(100% - 99px);
+            text-align: right;
+        }
+        .main-nav__items {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .main-nav__item {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .main-header__logo {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 21px;
+        }
+
+        .main-nav__item a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .main-nav__item a:hover, .main-nav__item:hover::before {
+            color: #2E4C6D;
+        }      
+
+        .main-nav__item:active::before, .main-nav__item a:active {
+            color: #fff;
+        }
+
+        .main-nav__item::before {
+            content: '\2022';
+            color: #fff;
+        }
+
+        .main-nav__item--login a {
+            color: #fff;
+            background-color: #2E4C6D;
+            padding: 4px 16px;
+            border-radius: 8px;
+            border: 2px solid #fff;
+        }
+
+        .main-nav__item--login a:hover {
+            color: #2E4C6D;
+            border: 2px solid #2E4C6D;
+            background-color: #fff;
+        }
+
+        .main-nav__item--login::before {
+            content:none;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <a href="#" class="main-header__logo">MovieApp</a>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="#">Filmler</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Diziler</a>
+                </li>
+                <li class="main-nav__item main-nav__item--login">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+
+   <main>
+       <section id="showcase">
+           <h1>Welcome to MovieApp</h1>
+       </section>
+       <section id="how-it-works">
+           <h2 style="color: blue; font-size: 30px ;">How it works?</h2>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, hic?
+       </section>
+       <br><br>
+       <table>
+            <tr>
+                <td>
+                    <h3 style="color: blue; font-size: 30px; text-align: center;">
+                        Register
+                    </h3>
+                    <p style="text-align: center;">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, laudantium qui maiores nihil cumque itaque.
+                    </p>
+                    <br>
+                </td>
+                <td>
+                    <h3 style="color: blue; font-size: 30px; text-align: center;">
+                        Choose a Plan
+                    </h3>
+                    <p style="text-align: center;">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, laudantium qui maiores nihil cumque itaque.
+                    </p>
+                    <br>
+                </td>
+                <td>
+                    <h3 style="color: blue; font-size: 30px; text-align: center;">
+                        Enjoy Movify
+                    </h3>
+                    <p style="text-align: center;">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, laudantium qui maiores nihil cumque itaque.
+                    </p>
+                    <br>
+                </td>
+            </tr>
+       </table>
+   </main>
+
+</body>
+</html>

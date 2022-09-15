@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.top {
+    background-color: yellow;
+    text-decoration: line-through;
+}
+
+#below {
+    background-color: blue;
+}
+
+#content {
+    font-weight: bold;
+    margin: 100px;
+}
