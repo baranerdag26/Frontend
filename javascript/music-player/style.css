@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.toHide{
+    display: none;
+}
+
+.card img{
+    width: 318px;
+    height: 178px;
+}
